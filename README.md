@@ -29,5 +29,8 @@ List Comprehension: `["S " ++ x | x <- ["Arco, "ametista", "Azul", "verde"], hea
 Filter: `map (\x -> "S " ++ x) (filter (\y -> head y == 'A') ["Arco", "ametista", "Azul", "verde"])`
 *saida:* ["S Arco","S Azul"]
 
+- Exemplo um pouco mais longo:
+![exemplo de código](img/exemplo2.png)
+
 ## Conclusão:
 List comprehensions em Haskell oferecem uma maneira sucinta, legível e poderosa de trabalhar com listas, combinando mapeamento e filtragem em uma única expressão.
